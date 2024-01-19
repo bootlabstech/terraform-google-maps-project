@@ -47,8 +47,8 @@ resource "null_resource" "change_billing_account" {
 
 
 resource "google_apikeys_key" "apikey" {
-  name         = var.apikey-name
-  display_name = var.apikey-name
+  name         = var.apikeyname
+  display_name = var.apikeyname
   project      = google_project.project.project_id
 
   # Geocoding API

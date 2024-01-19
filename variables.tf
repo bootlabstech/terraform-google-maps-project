@@ -20,7 +20,7 @@ variable "service_apis" {
   default     = ["serviceusage.googleapis.com", "compute.googleapis.com", "secretmanager.googleapis.com", "apikeys.googleapis.com"]
 }
 
-variable "apikey-name" {
+variable "apikeyname" {
   type        = string
   description = "Name of api key"
 }
